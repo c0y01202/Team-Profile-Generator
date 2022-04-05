@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/c0y01202/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/c0y01202/Team-Profile-Generator#readme"
+  "homepage": "https://github.com/c0y01202/Team-Profile-Generator#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
