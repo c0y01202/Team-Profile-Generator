@@ -11,3 +11,4 @@ module.exports = function (val1, val2) {
     return false;
   }
 };
+module.exports = function () {};

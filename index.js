@@ -43,7 +43,7 @@ function runApp() {
         }
       });
   }
-  // OOP Functions
+  //  Questions for Inquirer
 
   function addIntern() {
     inquirer
