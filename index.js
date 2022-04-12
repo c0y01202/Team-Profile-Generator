@@ -20,8 +20,8 @@ function runApp() {
           name: "addEmployeePrompt",
           choices: [
             "Intern",
-            "Software Developer",
-            "Product Manager",
+            "Engineer",
+            "Manager",
             "No more team members are needed.",
           ],
         },
@@ -31,10 +31,10 @@ function runApp() {
           case "Intern":
             addIntern();
             break;
-          case "Software Engineer":
+          case "Engineer":
             addEngineer();
             break;
-          case "Product Manager":
+          case "Manager":
             addIntern();
             break;
 
@@ -89,36 +89,36 @@ function runApp() {
       .prompt([
         {
           type: "input",
-          name: "softwareengineerName",
+          name: "engineerName",
           message: "What is the engineer's name?",
         },
 
         {
           type: "input",
-          name: "softwareengineerId",
+          name: "engineerId",
           message: "What is the engineer's employee ID number?",
         },
 
         {
           type: "input",
-          name: "softwareengineerEmail",
+          name: "engineerEmail",
           message: "What is the engineer's email address?",
         },
 
         {
           type: "input",
-          name: "softwareengineerGithub",
-          message: "What is the software engineer's GitHub username?",
+          name: "engineerGithub",
+          message: "What is the engineer's GitHub username?",
         },
       ])
       .then((answers) => {
-        const softwareEngineer = new softwareEngineer(
-          answers.softwareengineerName,
-          answers.softwareengineerId,
-          answers.softwareengineerEmail,
-          answers.softwareengineerGithub
+        const Engineer = new Engineer(
+          answers.engineerName,
+          answers.engineerId,
+          answers.engineerEmail,
+          answers.engineerGithub
         );
-        teamArray.push(softwareEngineer);
+        teamArray.push(Engineer);
         createTeam();
       });
   }
@@ -128,34 +128,34 @@ function runApp() {
       .prompt([
         {
           type: "input",
-          name: "productManager",
-          message: "What is the product manager's name?",
+          name: "Manager",
+          message: "What is the manager's name?",
         },
 
         {
           type: "input",
-          name: "productManagerId",
-          message: "What is the product manager's employee ID number?",
+          name: "ManagerId",
+          message: "What is the manager's employee ID number?",
         },
 
         {
           type: "input",
-          name: "productMAnagerEmail",
-          message: "What is the product manager's email address?",
+          name: "MnagerEmail",
+          message: "What is the manager's email address?",
         },
 
         {
           type: "input",
-          name: "productManagerResume",
+          name: "ManagerResume",
           message: "What is the linkedin address for the product manager?",
         },
       ])
       .then((answers) => {
-        const productManager = new productManager(
-          answers.productManagerName,
-          answers.productManagerId,
-          answers.productManagerEmail,
-          answers.productManagerResume
+        const Manager = new Manager(
+          answers.ManagerName,
+          answers.ManagerId,
+          answers.ManagerEmail,
+          answers.ManagerResume
         );
         teamArray.push(intern);
         createTeam();
