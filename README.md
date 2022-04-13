@@ -1,3 +1,4 @@
+![terminal_of_test_passing_intern](https://user-images.githubusercontent.com/97765679/163105245-113c732f-5c48-45dc-a9bb-f3cda0e22cd8.png)
 ![terminal_of_test_passing](https://user-images.githubusercontent.com/97765679/163105199-3d6136fe-95a0-41a3-bf81-a05163435a7c.png)
 # Team-Profile-Generator
 
