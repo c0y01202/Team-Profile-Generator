@@ -4,8 +4,16 @@ This assignment required use of testing Javascript code using node.js in the app
 
 # Using Jest to Test Application Code
 
-The following video link demonstrates files being tested using Jest in Visual Studio: https://drive.google.com/file/d/1F7VONBrdNjDdi5t4YHxB3MPb6brHaG2P/view
+The following video link demonstrates files being tested using Jest in Visual Studio: https://drive.google.com/file/d/1KmWsVub_MWPkhBiOODXi6Vc5RDpozonm/view
 
 # Inquirer and Output/HTML File
 
-Once tests were passed with Jest using node.js, an output file was created with an HTML template which Inquirer populated with data. Inquirer was run for all 3 types of employees and data that matched their employee type was entered with prompts and answers in the terminal. The following link is a video which shows how Inquirer populated the output HTML file with data: https://drive.google.com/file/d/1OZCv7lWFGqhTCvpLFDMEnzdjh2as5Q91/view
+Once tests were passed with Jest using node.js, an output file was created with an HTML template which Inquirer populated with data. Inquirer was run for all 3 types of employees and data that matched their employee type was entered with prompts and answers in the terminal. The following link is a video which shows how Inquirer populated the output HTML file with data: https://drive.google.com/file/d/1pvFCuI7czL6ZwEdszmEAssPbcwdAmbH8/view
+
+# Github link to Repository
+
+https://github.com/c0y01202/Team-Profile-Generator
+
+# Link to Live Site:
+
+https://c0y01202.github.io/Team-Profile-Generator/
