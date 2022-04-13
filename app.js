@@ -76,14 +76,6 @@ function addMember() {
     });
 }
 
-// function renderHtml(memberArray) {
-//     startHtml();
-//     for (const member of memberArray) {
-//         addHtml(member);
-//     }
-//     finishHtml();
-// }
-
 function startHtml() {
   const html = `<!DOCTYPE html>
     <html lang="en">
@@ -177,10 +169,4 @@ function finishHtml() {
   console.log("end");
 }
 
-// addMember();
-// startHtml();
-// addHtml("hi")
-// .then(function() {
-// finishHtml();
-// });
 initApp();
